@@ -2,41 +2,117 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Mariana Carmo">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
-    <h1>Sobre mim</h1>
+    <!-- Cabeçalho da Página (header) -->
+    <header>
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header_content">
+            <!-- Titulo do Cabeçalho -->
+            <div id="titulo">
+                <h1>Mariana Carmo</h1>
+            </div>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam in vel neque nobis cupiditate doloribus
-        reprehenderit ratione consequatur culpa quasi? Officia maiores, ratione molestiae quas dolorum sunt aspernatur
-        aliquam voluptates.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, velit ipsum! Explicabo ipsum itaque iusto illum
-        molestias, architecto maiores aperiam tenetur quibusdam cumque. Facere quo odio est sapiente commodi provident.
-    </p>
+            <!-- Conteudo do Menu da Página (header) -->
+            <div id="menu">
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
 
-    <img src="" alt="Foto do criador do conteúdo">
+            </div>
+        </div>
+    </header>
 
-    <h2>Meu video favorito</h2>
+    <!-- Seção Principal da Página (main) -->
+    <main>
+        <!-- Seção Sobre você -->
+        <section id="about">
+            <!-- Título da Seção -->
+            <h2>Sobre mim</h2>
+            <!-- Conteúdo da Seção -->
+            <div id="conteudo">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_Qux62mtDFc?si=lFeqyvKjJlsuhY-1"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- Imagem do criador do conteúdo -->
+                <img src="./assets/img/foto-mariana.jpeg" alt="Foto do criador desse conteudo" />
 
+                <!-- Texto sobre o criador do conteúdo -->
+                <article id="sobre_texto">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptatem odio possimus, dolorem earum atque
+                        itaque quas soluta placeat iure omnis porro cum
+                        debitis sequi libero! Deleniti vitae quis hic
+                        cumque. Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Eius inventore ullam, quia
+                        deserunt enim cumque hic officia repudiandae ad ab
+                        et sapiente qui vitae accusamus adipisci provident
+                        sit assumenda laboriosam!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptatem odio possimus, dolorem earum atque
+                        itaque quas soluta placeat iure omnis porro cum
+                        debitis sequi libero! Deleniti vitae quis hic
+                        cumque. Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Eius inventore ullam, quia
+                        deserunt enim cumque hic officia repudiandae ad ab
+                        et sapiente qui vitae accusamus adipisci provident
+                        sit assumenda laboriosam!
+                    </p>
+                </article>
+        </section>
+
+        <!-- Seção contendo um vídeo de sua preferência -->
+        <section id="video">
+            <!-- Título da Seção -->
+            <h2>Um dos meus jogos favoritos</h2>
+
+            <!-- Vídeo da Seção -->
+            <div class="youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kXZoKdr-xeo?si=S3weyrJk7y1-ibDK"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer>
+        <!-- Seção de Contato - Redes Sociais-->
+        <section id="redes_sociais">
+
+            <a href="https://www.linkedin.com/in/mariana-pimentel-frontend/">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/MariPimentelCarmo">
+                <img src="assets/img/github.svg" alt="Github" />
+            </a>
+            <a href="https://www.instagram.com/maripcarmo/">
+                <img src="assets/img/instagram.svg" alt="Instagram" />
+            </a>
+
+        </section>
+
+        <h3>
+            Feito com 🧡 por Mariana Carmo - 2025
+        </h3>
+    </footer>
 </body>
 
 </html>
