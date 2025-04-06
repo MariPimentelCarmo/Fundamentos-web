@@ -8,7 +8,7 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Mariana Carmo">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/svg" href="./assets/img/menina.png" />
 
     <title>Contato</title>
@@ -18,7 +18,7 @@
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
 
@@ -46,7 +46,7 @@
     <!-- Seção Principal da Página (main) -->
     <main>
         <!-- Seção Formulário de Contato e Redes Sociais -->
-        <section id="contact">
+        <div id="contact" class="flex">
             <!-- Seção do Formulário-->
             <form action="#" method="submit">
                 <label for="nome">Nome: </label>
@@ -70,7 +70,7 @@
             </form>
 
             <!-- Seção do Google Maps -->
-            <article id="mapa">
+            <section id="mapa" class="flex_start">
 
                 <div id="endereco">
                     <p>Av. Paulista, 100</p>
@@ -83,32 +83,32 @@
                     tabindex="0" id="mapa">
                 </iframe>
 
-            </article>
+            </section>
 
-        </section>
+        </div>
 
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
-
+    <footer class="flex">
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/mariana-pimentel-frontend/" target="_blank">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+            <a href="https://github.com/MariPimentelCarmo" target="_blank">
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
-            <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+            <a href="https://www.instagram.com/maripcarmo/" target="_blank">
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
             </a>
 
         </section>
 
-        <h3>Feito com 🧡 por Mariana Carmo - 2025</h3>
-
+        <h3>
+            Feito com 🧡 por Mariana Carmo - 2025
+        </h3>
     </footer>
 
 </body>

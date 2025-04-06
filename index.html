@@ -16,7 +16,7 @@
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
                 <h1>Mariana Carmo</h1>
@@ -42,50 +42,43 @@
     <!-- Seção Principal da Página (main) -->
     <main>
         <!-- Seção Sobre você -->
-        <section id="about">
+        <section id="about" class="flex_start">
             <!-- Título da Seção -->
             <h2>Sobre mim</h2>
             <!-- Conteúdo da Seção -->
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
 
                 <!-- Imagem do criador do conteúdo -->
-                <img src="./assets/img/foto-mariana.jpeg" alt="Foto do criador desse conteudo" />
+                <img src="./assets/img/mariana-imagem.svg" alt="Foto do criador desse conteudo" class="img_profile" />
 
                 <!-- Texto sobre o criador do conteúdo -->
                 <article id="sobre_texto">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Voluptatem odio possimus, dolorem earum atque
-                        itaque quas soluta placeat iure omnis porro cum
-                        debitis sequi libero! Deleniti vitae quis hic
-                        cumque. Lorem ipsum, dolor sit amet consectetur
-                        adipisicing elit. Eius inventore ullam, quia
-                        deserunt enim cumque hic officia repudiandae ad ab
-                        et sapiente qui vitae accusamus adipisci provident
-                        sit assumenda laboriosam!
+                        Formada em Análise e Desenvolvimento de Sistemas pela SPTech, com passagem anterior por Ciência
+                        da Computação, acumulo experiências que vão da organização de dados e documentação em reuniões
+                        até o atendimento ao cliente via plataforma digital, sempre com atenção à clareza e precisão das
+                        informações. Estagiei na Accenture, onde desenvolvi habilidades em ambiente corporativo de
+                        grande porte. Atualmente, estou no bootcamp "Desenvolvedor Full Stack (Java React)" pela
+                        Generation Brazil, enquanto avanço nos estudos de inglês em nível intermediário pela CNA.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Voluptatem odio possimus, dolorem earum atque
-                        itaque quas soluta placeat iure omnis porro cum
-                        debitis sequi libero! Deleniti vitae quis hic
-                        cumque. Lorem ipsum, dolor sit amet consectetur
-                        adipisicing elit. Eius inventore ullam, quia
-                        deserunt enim cumque hic officia repudiandae ad ab
-                        et sapiente qui vitae accusamus adipisci provident
-                        sit assumenda laboriosam!
+                        Tenho ambição de me tornar referência na minha área, buscando constante aprendizado prático e
+                        técnico. Tenho grande afinidade com o desenvolvimento front-end e me interesso bastante por
+                        UX/UI, buscando entender como design e código se conectam para melhorar a experiência do
+                        usuário. Ao mesmo tempo, mantenho minha paixão pelo back-end, onde encontro desafios técnicos
+                        que me motivam a evoluir constantemente.
                     </p>
                 </article>
         </section>
 
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
+        <section id="video" class="flex_start">
             <!-- Título da Seção -->
             <h2>Um dos meus jogos favoritos</h2>
 
             <!-- Vídeo da Seção -->
-            <div class="youtube">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/kXZoKdr-xeo?si=S3weyrJk7y1-ibDK"
+            <div id="youtube" class="flex">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kXZoKdr-xeo?si=S3weyrJk7y1-ibDK" 
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -94,18 +87,18 @@
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
-            <a href="https://www.linkedin.com/in/mariana-pimentel-frontend/">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/mariana-pimentel-frontend/" target="_blank">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
-            <a href="https://github.com/MariPimentelCarmo">
-                <img src="assets/img/github.svg" alt="Github" />
+            <a href="https://github.com/MariPimentelCarmo" target="_blank">
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
-            <a href="https://www.instagram.com/maripcarmo/">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+            <a href="https://www.instagram.com/maripcarmo/" target="_blank">
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
             </a>
 
         </section>
